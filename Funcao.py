@@ -37,7 +37,8 @@ import math
 def f(x):
 	#return math.exp(-x)*math.sin(x)
 	#return 1/(math.sqrt(4-x*x))
-	return 1/(x*x*x + 1)
+	#return 1/(x*x*x + 1)
+	return 2*x + 90 /(x*x*x + 1)
 
 #Funcao Generica para calculo do Xi
 #intervaloA: inicio do intervalo A
